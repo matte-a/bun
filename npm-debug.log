@@ -1,0 +1,1023 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/bardar/.nvm/versions/io.js/v1.8.4/bin/iojs',
+1 verbose cli   '/home/bardar/.nvm/versions/io.js/v1.8.4/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'bun' ]
+2 info using npm@2.9.0
+3 info using node@v1.8.4
+4 verbose install initial load of /home/bardar/.nvm/versions/io.js/v1.8.4/lib/package.json
+5 verbose readDependencies loading dependencies from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/package.json
+6 silly cache add args [ 'bun', null ]
+7 verbose cache add spec bun
+8 silly cache add parsed spec { raw: 'bun',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'bun',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed bun@*
+10 verbose addNamed "*" is a valid semver range for bun
+11 silly addNameRange { name: 'bun', range: '*', hasData: false }
+12 silly mapToRegistry name bun
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/bun
+16 verbose addNameRange registry:https://registry.npmjs.org/bun not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/bun
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 21:51:33
+20 verbose request id 56d646856e2319be
+21 verbose etag W/"d7d5b7bcabbf6dd5f1fc01a388d58d9b"
+22 verbose lastModified Thu, 14 Sep 2023 14:07:24 GMT
+23 http request GET https://registry.npmjs.org/bun
+24 http 304 https://registry.npmjs.org/bun
+25 silly get cb [ 304,
+25 silly get   { date: 'Thu, 14 Sep 2023 19:51:34 GMT',
+25 silly get     connection: 'keep-alive',
+25 silly get     'cf-ray': '806b2a538d660d66-MXP',
+25 silly get     'cf-cache-status': 'REVALIDATED',
+25 silly get     'cache-control': 'public, max-age=300',
+25 silly get     etag: '"d7d5b7bcabbf6dd5f1fc01a388d58d9b"',
+25 silly get     'last-modified': 'Thu, 14 Sep 2023 14:07:24 GMT',
+25 silly get     vary: 'Accept-Encoding',
+25 silly get     server: 'cloudflare' } ]
+26 verbose etag https://registry.npmjs.org/bun from cache
+27 verbose get saving bun to /home/bardar/.npm/registry.npmjs.org/bun/.cache.json
+28 silly addNameRange number 2 { name: 'bun', range: '*', hasData: true }
+29 silly addNameRange versions [ 'bun',
+29 silly addNameRange   [ '0.0.1',
+29 silly addNameRange     '0.0.2',
+29 silly addNameRange     '0.0.3',
+29 silly addNameRange     '0.0.4',
+29 silly addNameRange     '0.0.5',
+29 silly addNameRange     '0.0.6',
+29 silly addNameRange     '0.0.7',
+29 silly addNameRange     '0.0.8',
+29 silly addNameRange     '0.0.9',
+29 silly addNameRange     '0.0.10',
+29 silly addNameRange     '0.0.11',
+29 silly addNameRange     '0.0.12',
+29 silly addNameRange     '0.5.1-canary',
+29 silly addNameRange     '0.5.1-canary.ff6fb58',
+29 silly addNameRange     '0.5.1-canary.20230124.1',
+29 silly addNameRange     '0.5.0',
+29 silly addNameRange     '0.5.1',
+29 silly addNameRange     '0.5.1-canary.20230125.1',
+29 silly addNameRange     '0.5.2-canary.20230126.1',
+29 silly addNameRange     '0.5.2-canary.20230128.1',
+29 silly addNameRange     '0.5.2-canary.20230128.2',
+29 silly addNameRange     '0.5.2-canary.20230130.1',
+29 silly addNameRange     '0.5.2',
+29 silly addNameRange     '0.5.3',
+29 silly addNameRange     '0.5.4',
+29 silly addNameRange     '0.5.2-canary.20230201.1',
+29 silly addNameRange     '0.5.2-canary.20230201.2',
+29 silly addNameRange     '0.5.5-canary.20230202.1',
+29 silly addNameRange     '0.5.5',
+29 silly addNameRange     '0.5.5-canary.20230203.1',
+29 silly addNameRange     '0.5.5-canary.20230204.1',
+29 silly addNameRange     '0.5.5-canary.20230205.1',
+29 silly addNameRange     '0.5.5-canary.20230206.1',
+29 silly addNameRange     '0.5.5-canary.20230207.1',
+29 silly addNameRange     '0.5.5-canary.20230207.2',
+29 silly addNameRange     '0.5.5-canary.20230208.1',
+29 silly addNameRange     '0.5.6',
+29 silly addNameRange     '0.5.5-canary.20230209.1',
+29 silly addNameRange     '0.5.7-canary.20230210.1',
+29 silly addNameRange     '0.5.7-canary.20230211.1',
+29 silly addNameRange     '0.5.7-canary.20230212.1',
+29 silly addNameRange     '0.5.7-canary.20230213.1',
+29 silly addNameRange     '0.5.7-canary.20230214.1',
+29 silly addNameRange     '0.5.7-canary.20230215.1',
+29 silly addNameRange     '0.5.7-canary.20230216.1',
+29 silly addNameRange     '0.5.7-canary.20230217.1',
+29 silly addNameRange     '0.5.7-canary.20230218.1',
+29 silly addNameRange     '0.5.7-canary.20230219.1',
+29 silly addNameRange     '0.5.7-canary.20230220.1',
+29 silly addNameRange     '0.5.7-canary.20230221.1',
+29 silly addNameRange     '0.5.7-canary.20230222.1',
+29 silly addNameRange     '0.5.7-canary.20230223.1',
+29 silly addNameRange     '0.5.7',
+29 silly addNameRange     '0.5.8-canary.20230224.1',
+29 silly addNameRange     '0.5.8-canary.20230225.1',
+29 silly addNameRange     '0.5.8-canary.20230226.1',
+29 silly addNameRange     '0.5.8-canary.20230227.1',
+29 silly addNameRange     '0.5.8-canary.20230228.1',
+29 silly addNameRange     '0.5.8-canary.20230302.1',
+29 silly addNameRange     '0.5.8-canary.20230302.2',
+29 silly addNameRange     '0.5.8-canary.20230303.1',
+29 silly addNameRange     '0.5.8-canary.20230304.1',
+29 silly addNameRange     '0.5.8-canary.20230305.1',
+29 silly addNameRange     '0.5.8-canary.20230306.1',
+29 silly addNameRange     '0.5.8-canary.20230307.1',
+29 silly addNameRange     '0.5.8-canary.20230308.1',
+29 silly addNameRange     '0.5.8-canary.20230309.1',
+29 silly addNameRange     '0.5.8-canary.20230310.1',
+29 silly addNameRange     '0.5.8-canary.20230311.1',
+29 silly addNameRange     '0.5.8-canary.20230312.1',
+29 silly addNameRange     '0.5.8-canary.20230313.1',
+29 silly addNameRange     '0.5.8-canary.20230314.1',
+29 silly addNameRange     '0.5.8-canary.20230315.1',
+29 silly addNameRange     '0.5.8-canary.20230316.1',
+29 silly addNameRange     '0.5.8-canary.20230317.1',
+29 silly addNameRange     '0.5.8-canary.20230318.1',
+29 silly addNameRange     '0.5.8-canary.20230319.1',
+29 silly addNameRange     '0.5.8',
+29 silly addNameRange     '0.5.8-canary.20230320.1',
+29 silly addNameRange     '0.5.8-canary.20230321.1',
+29 silly addNameRange     '0.5.9-canary.20230322.1',
+29 silly addNameRange     '0.5.9-canary.20230323.1',
+29 silly addNameRange     '0.5.9-canary.20230324.1',
+29 silly addNameRange     '0.5.9-canary.20230325.1',
+29 silly addNameRange     '0.5.9-canary.20230326.1',
+29 silly addNameRange     '0.5.9-canary.20230327.1',
+29 silly addNameRange     '0.5.9-canary.20230328.1',
+29 silly addNameRange     '0.5.9-canary.20230328.2',
+29 silly addNameRange     '0.5.9-canary.20230328.3',
+29 silly addNameRange     '0.5.9-canary.20230329.1',
+29 silly addNameRange     '0.5.9-canary.20230330.1',
+29 silly addNameRange     '0.5.9-canary.20230331.1',
+29 silly addNameRange     '0.5.9-canary.20230401.1',
+29 silly addNameRange     '0.5.9-canary.20230402.1',
+29 silly addNameRange     '0.5.9-canary.20230403.1',
+29 silly addNameRange     '0.5.9',
+29 silly addNameRange     '0.5.9-canary.20230404.1',
+29 silly addNameRange     '0.5.9-canary.20230405.1',
+29 silly addNameRange     '0.5.9-canary.20230406.1',
+29 silly addNameRange     '0.5.10-canary.20230407.1',
+29 silly addNameRange     '0.5.10-canary.20230407.2',
+29 silly addNameRange     '0.6.0-canary.20230408.1',
+29 silly addNameRange     '0.6.0-canary.20230410.1',
+29 silly addNameRange     '0.6.0-canary.20230411.1',
+29 silly addNameRange     '0.6.0-canary.20230412.1',
+29 silly addNameRange     '0.6.0-canary.20230413.1',
+29 silly addNameRange     '0.6.0-canary.20230414.1',
+29 silly addNameRange     '0.6.0-canary.20230415.1',
+29 silly addNameRange     '0.6.0-canary.20230416.1',
+29 silly addNameRange     '0.6.0-canary.20230417.1',
+29 silly addNameRange     '0.6.0-canary.20230418.1',
+29 silly addNameRange     '0.6.0-canary.20230419.1',
+29 silly addNameRange     '0.6.0-canary.20230420.1',
+29 silly addNameRange     '0.6.0-canary.20230421.1',
+29 silly addNameRange     '0.6.0-canary.20230422.1',
+29 silly addNameRange     '0.6.0-canary.20230423.1',
+29 silly addNameRange     '0.6.0-canary.20230424.1',
+29 silly addNameRange     '0.6.0-canary.20230425.1',
+29 silly addNameRange     '0.6.0-canary.20230426.1',
+29 silly addNameRange     '0.6.0-canary.20230427.1',
+29 silly addNameRange     '0.6.0-canary.20230428.1',
+29 silly addNameRange     '0.6.0-canary.20230429.1',
+29 silly addNameRange     '0.6.0-canary.20230430.1',
+29 silly addNameRange     '0.6.0-canary.20230501.1',
+29 silly addNameRange     '0.6.0-canary.20230502.1',
+29 silly addNameRange     '0.6.0-canary.20230503.1',
+29 silly addNameRange     '0.6.0-canary.20230504.1',
+29 silly addNameRange     '0.6.0-canary.20230505.1',
+29 silly addNameRange     '0.6.0-canary.20230506.1',
+29 silly addNameRange     '0.6.0-canary.20230507.1',
+29 silly addNameRange     '0.6.0-canary.20230508.1',
+29 silly addNameRange     '0.6.0-canary.20230509.1',
+29 silly addNameRange     '0.6.0-canary.20230510.1',
+29 silly addNameRange     '0.6.0-canary.20230511.1',
+29 silly addNameRange     '0.6.0-canary.20230512.1',
+29 silly addNameRange     '0.6.0-canary.20230513.1',
+29 silly addNameRange     '0.6.0-canary.20230514.1',
+29 silly addNameRange     '0.6.0-canary.20230515.1',
+29 silly addNameRange     '0.6.0-canary.20230516.1',
+29 silly addNameRange     '0.6.0',
+29 silly addNameRange     '0.6.1',
+29 silly addNameRange     '0.6.1-canary.20230517.1',
+29 silly addNameRange     '0.6.2',
+29 silly addNameRange     '0.6.2-canary.20230518.1',
+29 silly addNameRange     '0.6.3-canary.20230519.1',
+29 silly addNameRange     '0.6.3-canary.20230520.1',
+29 silly addNameRange     '0.6.3-canary.20230521.1',
+29 silly addNameRange     '0.6.3-canary.20230522.1',
+29 silly addNameRange     '0.6.3',
+29 silly addNameRange     '0.6.3-canary.20230523.1',
+29 silly addNameRange     '0.6.3-canary.20230524.1',
+29 silly addNameRange     '0.6.4-canary.20230525.1',
+29 silly addNameRange     '0.6.4-canary.20230526.1',
+29 silly addNameRange     '0.6.4',
+29 silly addNameRange     '0.6.5-canary.20230527.1',
+29 silly addNameRange     '0.6.5-canary.20230528.1',
+29 silly addNameRange     '0.6.5-canary.20230529.1',
+29 silly addNameRange     '0.6.5',
+29 silly addNameRange     '0.6.6-canary.20230530.1',
+29 silly addNameRange     '0.6.6-canary.20230531.1',
+29 silly addNameRange     '0.6.6',
+29 silly addNameRange     '0.6.6-canary.20230601.1',
+29 silly addNameRange     '0.6.7-canary.20230602.1',
+29 silly addNameRange     '0.6.7',
+29 silly addNameRange     '0.6.7-canary.20230603.1',
+29 silly addNameRange     '0.6.8-canary.20230604.1',
+29 silly addNameRange     '0.6.8-canary.20230605.1',
+29 silly addNameRange     '0.6.8-canary.20230606.1',
+29 silly addNameRange     '0.6.8-canary.20230607.1',
+29 silly addNameRange     '0.6.8-canary.20230608.1',
+29 silly addNameRange     '0.6.8-canary.20230609.1',
+29 silly addNameRange     '0.6.8',
+29 silly addNameRange     '0.6.8-canary.20230610.1',
+29 silly addNameRange     '0.6.8-canary.20230611.1',
+29 silly addNameRange     '0.6.8-canary.20230612.1',
+29 silly addNameRange     '0.6.8-canary.20230613.1',
+29 silly addNameRange     '0.6.9',
+29 silly addNameRange     '0.6.9-canary.20230614.1',
+29 silly addNameRange     '0.6.10-canary.20230618.1',
+29 silly addNameRange     '0.6.10-canary.20230624.1',
+29 silly addNameRange     '0.6.10-canary.20230625.1',
+29 silly addNameRange     '0.6.10-canary.20230626.1',
+29 silly addNameRange     '0.6.10',
+29 silly addNameRange     '0.6.10-canary.20230627.1',
+29 silly addNameRange     '0.6.11',
+29 silly addNameRange     '0.6.11-canary.20230628.1',
+29 silly addNameRange     '0.6.12',
+29 silly addNameRange     '0.6.13-canary.20230702.1',
+29 silly addNameRange     '0.6.13-canary.20230703.1',
+29 silly addNameRange     '0.6.13-canary.20230704.1',
+29 silly addNameRange     '0.6.13',
+29 silly addNameRange     '0.6.14-canary.20230705.1',
+29 silly addNameRange     '0.6.14-canary.20230706.1',
+29 silly addNameRange     '0.6.14-canary.20230707.1',
+29 silly addNameRange     '0.6.14-canary.20230708.1',
+29 silly addNameRange     '0.6.14-canary.20230709.1',
+29 silly addNameRange     '0.6.14-canary.20230710.1',
+29 silly addNameRange     '0.6.14-canary.20230711.1',
+29 silly addNameRange     '0.6.14',
+29 silly addNameRange     '0.6.15-canary.20230712.1',
+29 silly addNameRange     '0.6.15-canary.20230713.1',
+29 silly addNameRange     '0.6.15-canary.20230714.1',
+29 silly addNameRange     '0.6.15-canary.20230715.1',
+29 silly addNameRange     '0.6.15-canary.20230716.1',
+29 silly addNameRange     '0.6.15-canary.20230717.1',
+29 silly addNameRange     '0.6.15-canary.20230718.1',
+29 silly addNameRange     '0.6.15-canary.20230719.1',
+29 silly addNameRange     '0.6.15-canary.20230720.1',
+29 silly addNameRange     '0.7.0',
+29 silly addNameRange     '0.7.0-canary.20230721.1',
+29 silly addNameRange     '0.7.0-canary.20230722.1',
+29 silly addNameRange     '0.7.1-canary.20230723.1',
+29 silly addNameRange     '0.7.1-canary.20230724.1',
+29 silly addNameRange     '0.7.1-canary.20230725.1',
+29 silly addNameRange     '0.7.1-canary.20230726.1',
+29 silly addNameRange     '0.7.1-canary.20230727.1',
+29 silly addNameRange     '0.7.1-canary.20230728.1',
+29 silly addNameRange     '0.7.1',
+29 silly addNameRange     '0.7.1-canary.20230729.1',
+29 silly addNameRange     '0.7.2-canary.20230730.1',
+29 silly addNameRange     '0.7.2-canary.20230731.1',
+29 silly addNameRange     '0.7.2-canary.20230801.1',
+29 silly addNameRange     '0.7.2-canary.20230802.1',
+29 silly addNameRange     '0.7.2-canary.20230803.1',
+29 silly addNameRange     '0.7.2',
+29 silly addNameRange     '0.7.3-canary.20230804.1',
+29 silly addNameRange     '0.7.3-canary.20230805.1',
+29 silly addNameRange     '0.7.3-canary.20230806.1',
+29 silly addNameRange     '0.7.3',
+29 silly addNameRange     '0.7.4-canary.20230807.1',
+29 silly addNameRange     '0.7.4-canary.20230811.1',
+29 silly addNameRange     '0.7.4-canary.20230813.1',
+29 silly addNameRange     '0.7.4-canary.20230814.1',
+29 silly addNameRange     '0.7.4-canary.20230815.1',
+29 silly addNameRange     '0.7.4-canary.20230816.1',
+29 silly addNameRange     '0.7.4-canary.20230817.1',
+29 silly addNameRange     '0.7.4-canary.20230818.1',
+29 silly addNameRange     '0.7.4-canary.20230819.1',
+29 silly addNameRange     '0.7.4-canary.20230820.1',
+29 silly addNameRange     '0.7.4-canary.20230821.1',
+29 silly addNameRange     '0.8.0-canary.20230822.1',
+29 silly addNameRange     '0.8.0-canary.20230823.1',
+29 silly addNameRange     '0.8.0',
+29 silly addNameRange     '0.8.0-canary.20230824.1',
+29 silly addNameRange     '0.8.1',
+29 silly addNameRange     '0.8.1-canary.20230825.1',
+29 silly addNameRange     '0.8.2-canary.20230826.1',
+29 silly addNameRange     '0.8.2-canary.20230827.1',
+29 silly addNameRange     '0.8.2-canary.20230828.1',
+29 silly addNameRange     '0.8.2-canary.20230829.1',
+29 silly addNameRange     '0.8.2-canary.20230830.1',
+29 silly addNameRange     '0.8.2-canary.20230831.1',
+29 silly addNameRange     '0.8.2-canary.20230901.1',
+29 silly addNameRange     '0.8.2-canary.20230902.1',
+29 silly addNameRange     '0.8.2-canary.20230903.1',
+29 silly addNameRange     '0.8.2-canary.20230905.1',
+29 silly addNameRange     '0.8.2-canary.20230906.1',
+29 silly addNameRange     '0.8.2-canary.20230907.1',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.0-canary.20230908.1',
+29 silly addNameRange     '1.0.0-canary.20230909.1',
+29 silly addNameRange     '1.0.0-canary.20230910.1',
+29 silly addNameRange     '1.0.0-canary.20230911.1',
+29 silly addNameRange     '1.0.1-canary.20230912.1',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.1-canary.20230913.1',
+29 silly addNameRange     '1.0.1-canary.20230914.1' ] ]
+30 silly addNamed bun@1.0.1
+31 verbose addNamed "1.0.1" is a plain semver version for bun
+32 silly cache afterAdd bun@1.0.1
+33 verbose afterAdd /home/bardar/.npm/bun/1.0.1/package/package.json not in flight; writing
+34 verbose afterAdd /home/bardar/.npm/bun/1.0.1/package/package.json written
+35 silly install resolved [ { name: 'bun',
+35 silly install resolved     version: '1.0.1',
+35 silly install resolved     description: 'Bun is a fast all-in-one JavaScript runtime.',
+35 silly install resolved     keywords:
+35 silly install resolved      [ 'bun',
+35 silly install resolved        'bun.js',
+35 silly install resolved        'node',
+35 silly install resolved        'node.js',
+35 silly install resolved        'runtime',
+35 silly install resolved        'bundler',
+35 silly install resolved        'transpiler',
+35 silly install resolved        'typescript' ],
+35 silly install resolved     homepage: 'https://bun.sh',
+35 silly install resolved     bugs: { url: 'https://github.com/oven-sh/issues' },
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     bin: { bun: 'bin/bun', bunx: 'bin/bun' },
+35 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/oven-sh/bun.git' },
+35 silly install resolved     scripts: { postinstall: 'node install.js' },
+35 silly install resolved     optionalDependencies:
+35 silly install resolved      { '@oven/bun-darwin-aarch64': '1.0.1',
+35 silly install resolved        '@oven/bun-darwin-x64': '1.0.1',
+35 silly install resolved        '@oven/bun-darwin-x64-baseline': '1.0.1',
+35 silly install resolved        '@oven/bun-linux-aarch64': '1.0.1',
+35 silly install resolved        '@oven/bun-linux-x64': '1.0.1',
+35 silly install resolved        '@oven/bun-linux-x64-baseline': '1.0.1' },
+35 silly install resolved     os: [ 'darwin', 'linux' ],
+35 silly install resolved     cpu: [ 'arm64', 'x64' ],
+35 silly install resolved     gitHead: '4c113d1866ef6463a5972d90a2b6bddceb56ef73',
+35 silly install resolved     dependencies:
+35 silly install resolved      { '@oven/bun-darwin-aarch64': '1.0.1',
+35 silly install resolved        '@oven/bun-darwin-x64': '1.0.1',
+35 silly install resolved        '@oven/bun-darwin-x64-baseline': '1.0.1',
+35 silly install resolved        '@oven/bun-linux-aarch64': '1.0.1',
+35 silly install resolved        '@oven/bun-linux-x64': '1.0.1',
+35 silly install resolved        '@oven/bun-linux-x64-baseline': '1.0.1' },
+35 silly install resolved     _id: 'bun@1.0.1',
+35 silly install resolved     _nodeVersion: '18.17.1',
+35 silly install resolved     _npmVersion: '9.6.7',
+35 silly install resolved     dist:
+35 silly install resolved      { integrity: 'sha512-rdrGbCuDKrwidZ+I05k127JyvKiLIsIov1/Qcf1u1s0zv+e1csjA/7cSOQ1AjmdZ1sqm0VFx/N1rccZ91SQylw==',
+35 silly install resolved        shasum: 'cfcfcb4c388f3ac2c2a8e664bc0d4e1e17b13360',
+35 silly install resolved        tarball: 'https://registry.npmjs.org/bun/-/bun-1.0.1.tgz',
+35 silly install resolved        fileCount: 4,
+35 silly install resolved        unpackedSize: 29206,
+35 silly install resolved        signatures: [Object] },
+35 silly install resolved     _npmUser: { name: 'robobun', email: 'bot@oven.sh' },
+35 silly install resolved     directories: {},
+35 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+35 silly install resolved     _npmOperationalInternal:
+35 silly install resolved      { host: 's3://npm-registry-packages',
+35 silly install resolved        tmp: 'tmp/bun_1.0.1_1694533440188_0.15983909757401293' },
+35 silly install resolved     _hasShrinkwrap: false,
+35 silly install resolved     _shasum: 'cfcfcb4c388f3ac2c2a8e664bc0d4e1e17b13360',
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/bun/-/bun-1.0.1.tgz',
+35 silly install resolved     _from: 'bun@*',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install bun@1.0.1 into /home/bardar/.nvm/versions/io.js/v1.8.4/lib
+37 info installOne bun@1.0.1
+38 verbose installOne of bun to /home/bardar/.nvm/versions/io.js/v1.8.4/lib not in flight; installing
+39 verbose lock using /home/bardar/.npm/_locks/bun-fb4d4e96582762f7.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+40 silly install write writing bun 1.0.1 to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+41 verbose unbuild lib/node_modules/bun
+42 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun is being purged from base /home/bardar/.nvm/versions/io.js/v1.8.4
+43 verbose gentlyRm don't care about contents; nuking /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+44 verbose tar unpack /home/bardar/.npm/bun/1.0.1/package.tgz
+45 verbose tar unpacking to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+46 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun is being purged
+47 verbose gentlyRm don't care about contents; nuking /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 silly gunzTarPerm extractEntry bin/bun
+50 silly gunzTarPerm extractEntry install.js
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry README.md
+53 verbose write writing to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/package.json
+54 info preinstall bun@1.0.1
+55 verbose readDependencies loading dependencies from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/package.json
+56 silly prepareForInstallMany adding @oven/bun-darwin-aarch64@1.0.1 from bun dependencies
+57 silly prepareForInstallMany adding @oven/bun-darwin-x64@1.0.1 from bun dependencies
+58 silly prepareForInstallMany adding @oven/bun-darwin-x64-baseline@1.0.1 from bun dependencies
+59 silly prepareForInstallMany adding @oven/bun-linux-aarch64@1.0.1 from bun dependencies
+60 silly prepareForInstallMany adding @oven/bun-linux-x64@1.0.1 from bun dependencies
+61 silly prepareForInstallMany adding @oven/bun-linux-x64-baseline@1.0.1 from bun dependencies
+62 verbose readDependencies loading dependencies from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/package.json
+63 silly cache add args [ '@oven/bun-darwin-aarch64@1.0.1', null ]
+64 verbose cache add spec @oven/bun-darwin-aarch64@1.0.1
+65 silly cache add args [ '@oven/bun-darwin-x64@1.0.1', null ]
+66 verbose cache add spec @oven/bun-darwin-x64@1.0.1
+67 silly cache add parsed spec { raw: '@oven/bun-darwin-aarch64@1.0.1',
+67 silly cache add   scope: '@oven',
+67 silly cache add   name: '@oven/bun-darwin-aarch64',
+67 silly cache add   rawSpec: '1.0.1',
+67 silly cache add   spec: '1.0.1',
+67 silly cache add   type: 'version' }
+68 silly addNamed @oven/bun-darwin-aarch64@1.0.1
+69 verbose addNamed "1.0.1" is a plain semver version for @oven/bun-darwin-aarch64
+70 silly mapToRegistry name @oven/bun-darwin-aarch64
+71 silly mapToRegistry scope (from package name) @oven
+72 verbose mapToRegistry no registry URL found in name for scope @oven
+73 silly mapToRegistry using default registry
+74 silly mapToRegistry registry https://registry.npmjs.org/
+75 silly mapToRegistry uri https://registry.npmjs.org/@oven%2fbun-darwin-aarch64
+76 verbose addNameVersion registry:https://registry.npmjs.org/@oven%2fbun-darwin-aarch64 not in flight; fetching
+77 silly cache add parsed spec { raw: '@oven/bun-darwin-x64@1.0.1',
+77 silly cache add   scope: '@oven',
+77 silly cache add   name: '@oven/bun-darwin-x64',
+77 silly cache add   rawSpec: '1.0.1',
+77 silly cache add   spec: '1.0.1',
+77 silly cache add   type: 'version' }
+78 silly addNamed @oven/bun-darwin-x64@1.0.1
+79 verbose addNamed "1.0.1" is a plain semver version for @oven/bun-darwin-x64
+80 silly mapToRegistry name @oven/bun-darwin-x64
+81 silly mapToRegistry scope (from package name) @oven
+82 verbose mapToRegistry no registry URL found in name for scope @oven
+83 silly mapToRegistry using default registry
+84 silly mapToRegistry registry https://registry.npmjs.org/
+85 silly mapToRegistry uri https://registry.npmjs.org/@oven%2fbun-darwin-x64
+86 verbose addNameVersion registry:https://registry.npmjs.org/@oven%2fbun-darwin-x64 not in flight; fetching
+87 silly cache add args [ '@oven/bun-darwin-x64-baseline@1.0.1', null ]
+88 verbose cache add spec @oven/bun-darwin-x64-baseline@1.0.1
+89 silly cache add parsed spec { raw: '@oven/bun-darwin-x64-baseline@1.0.1',
+89 silly cache add   scope: '@oven',
+89 silly cache add   name: '@oven/bun-darwin-x64-baseline',
+89 silly cache add   rawSpec: '1.0.1',
+89 silly cache add   spec: '1.0.1',
+89 silly cache add   type: 'version' }
+90 silly addNamed @oven/bun-darwin-x64-baseline@1.0.1
+91 verbose addNamed "1.0.1" is a plain semver version for @oven/bun-darwin-x64-baseline
+92 silly mapToRegistry name @oven/bun-darwin-x64-baseline
+93 silly mapToRegistry scope (from package name) @oven
+94 verbose mapToRegistry no registry URL found in name for scope @oven
+95 silly mapToRegistry using default registry
+96 silly mapToRegistry registry https://registry.npmjs.org/
+97 silly mapToRegistry uri https://registry.npmjs.org/@oven%2fbun-darwin-x64-baseline
+98 verbose addNameVersion registry:https://registry.npmjs.org/@oven%2fbun-darwin-x64-baseline not in flight; fetching
+99 silly cache add args [ '@oven/bun-linux-aarch64@1.0.1', null ]
+100 verbose cache add spec @oven/bun-linux-aarch64@1.0.1
+101 silly cache add parsed spec { raw: '@oven/bun-linux-aarch64@1.0.1',
+101 silly cache add   scope: '@oven',
+101 silly cache add   name: '@oven/bun-linux-aarch64',
+101 silly cache add   rawSpec: '1.0.1',
+101 silly cache add   spec: '1.0.1',
+101 silly cache add   type: 'version' }
+102 silly addNamed @oven/bun-linux-aarch64@1.0.1
+103 verbose addNamed "1.0.1" is a plain semver version for @oven/bun-linux-aarch64
+104 silly mapToRegistry name @oven/bun-linux-aarch64
+105 silly mapToRegistry scope (from package name) @oven
+106 verbose mapToRegistry no registry URL found in name for scope @oven
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/@oven%2fbun-linux-aarch64
+110 verbose addNameVersion registry:https://registry.npmjs.org/@oven%2fbun-linux-aarch64 not in flight; fetching
+111 silly cache add args [ '@oven/bun-linux-x64@1.0.1', null ]
+112 verbose cache add spec @oven/bun-linux-x64@1.0.1
+113 silly cache add parsed spec { raw: '@oven/bun-linux-x64@1.0.1',
+113 silly cache add   scope: '@oven',
+113 silly cache add   name: '@oven/bun-linux-x64',
+113 silly cache add   rawSpec: '1.0.1',
+113 silly cache add   spec: '1.0.1',
+113 silly cache add   type: 'version' }
+114 silly addNamed @oven/bun-linux-x64@1.0.1
+115 verbose addNamed "1.0.1" is a plain semver version for @oven/bun-linux-x64
+116 silly mapToRegistry name @oven/bun-linux-x64
+117 silly mapToRegistry scope (from package name) @oven
+118 verbose mapToRegistry no registry URL found in name for scope @oven
+119 silly mapToRegistry using default registry
+120 silly mapToRegistry registry https://registry.npmjs.org/
+121 silly mapToRegistry uri https://registry.npmjs.org/@oven%2fbun-linux-x64
+122 verbose addNameVersion registry:https://registry.npmjs.org/@oven%2fbun-linux-x64 not in flight; fetching
+123 silly cache add args [ '@oven/bun-linux-x64-baseline@1.0.1', null ]
+124 verbose cache add spec @oven/bun-linux-x64-baseline@1.0.1
+125 silly cache add parsed spec { raw: '@oven/bun-linux-x64-baseline@1.0.1',
+125 silly cache add   scope: '@oven',
+125 silly cache add   name: '@oven/bun-linux-x64-baseline',
+125 silly cache add   rawSpec: '1.0.1',
+125 silly cache add   spec: '1.0.1',
+125 silly cache add   type: 'version' }
+126 silly addNamed @oven/bun-linux-x64-baseline@1.0.1
+127 verbose addNamed "1.0.1" is a plain semver version for @oven/bun-linux-x64-baseline
+128 silly mapToRegistry name @oven/bun-linux-x64-baseline
+129 silly mapToRegistry scope (from package name) @oven
+130 verbose mapToRegistry no registry URL found in name for scope @oven
+131 silly mapToRegistry using default registry
+132 silly mapToRegistry registry https://registry.npmjs.org/
+133 silly mapToRegistry uri https://registry.npmjs.org/@oven%2fbun-linux-x64-baseline
+134 verbose addNameVersion registry:https://registry.npmjs.org/@oven%2fbun-linux-x64-baseline not in flight; fetching
+135 verbose request uri https://registry.npmjs.org/@oven%2fbun-darwin-x64
+136 verbose request no auth needed
+137 info attempt registry request try #1 at 21:51:34
+138 verbose etag W/"37024cfefc3c3237b1f728917ed48344"
+139 verbose lastModified Thu, 14 Sep 2023 14:06:14 GMT
+140 http request GET https://registry.npmjs.org/@oven%2fbun-darwin-x64
+141 verbose request uri https://registry.npmjs.org/@oven%2fbun-darwin-aarch64
+142 verbose request no auth needed
+143 info attempt registry request try #1 at 21:51:34
+144 verbose etag W/"e6849d69cc643fb6bf7a0e659908a85f"
+145 verbose lastModified Thu, 14 Sep 2023 14:06:04 GMT
+146 http request GET https://registry.npmjs.org/@oven%2fbun-darwin-aarch64
+147 verbose request uri https://registry.npmjs.org/@oven%2fbun-darwin-x64-baseline
+148 verbose request no auth needed
+149 info attempt registry request try #1 at 21:51:34
+150 verbose etag W/"bd9b4aca3ed6a59a8d8e2ee4ceab839a"
+151 verbose lastModified Thu, 14 Sep 2023 14:06:27 GMT
+152 http request GET https://registry.npmjs.org/@oven%2fbun-darwin-x64-baseline
+153 verbose request uri https://registry.npmjs.org/@oven%2fbun-linux-x64-baseline
+154 verbose request no auth needed
+155 info attempt registry request try #1 at 21:51:34
+156 verbose etag W/"c8c845bf9163649b00ad89494e1c4a5e"
+157 verbose lastModified Thu, 14 Sep 2023 14:07:21 GMT
+158 http request GET https://registry.npmjs.org/@oven%2fbun-linux-x64-baseline
+159 verbose request uri https://registry.npmjs.org/@oven%2fbun-linux-aarch64
+160 verbose request no auth needed
+161 info attempt registry request try #1 at 21:51:34
+162 verbose etag W/"ef9604414cafeecacfea0eb8a2235d7a"
+163 verbose lastModified Thu, 14 Sep 2023 14:06:43 GMT
+164 http request GET https://registry.npmjs.org/@oven%2fbun-linux-aarch64
+165 verbose request uri https://registry.npmjs.org/@oven%2fbun-linux-x64
+166 verbose request no auth needed
+167 info attempt registry request try #1 at 21:51:34
+168 verbose etag W/"210fa279ff68bcf11184e6e219519774"
+169 verbose lastModified Thu, 14 Sep 2023 14:07:01 GMT
+170 http request GET https://registry.npmjs.org/@oven%2fbun-linux-x64
+171 http 304 https://registry.npmjs.org/@oven%2fbun-linux-x64
+172 silly get cb [ 304,
+172 silly get   { date: 'Thu, 14 Sep 2023 19:51:35 GMT',
+172 silly get     connection: 'keep-alive',
+172 silly get     'cf-ray': '806b2a592e244c73-MXP',
+172 silly get     'cf-cache-status': 'REVALIDATED',
+172 silly get     'cache-control': 'public, max-age=300',
+172 silly get     etag: '"210fa279ff68bcf11184e6e219519774"',
+172 silly get     'last-modified': 'Thu, 14 Sep 2023 14:07:01 GMT',
+172 silly get     vary: 'Accept-Encoding',
+172 silly get     server: 'cloudflare' } ]
+173 verbose etag https://registry.npmjs.org/@oven%2fbun-linux-x64 from cache
+174 verbose get saving @oven/bun-linux-x64 to /home/bardar/.npm/registry.npmjs.org/_40oven_252fbun-linux-x64/.cache.json
+175 silly cache afterAdd @oven/bun-linux-x64@1.0.1
+176 verbose afterAdd /home/bardar/.npm/@oven/bun-linux-x64/1.0.1/package/package.json not in flight; writing
+177 verbose afterAdd /home/bardar/.npm/@oven/bun-linux-x64/1.0.1/package/package.json written
+178 http 304 https://registry.npmjs.org/@oven%2fbun-linux-aarch64
+179 silly get cb [ 304,
+179 silly get   { date: 'Thu, 14 Sep 2023 19:51:35 GMT',
+179 silly get     connection: 'keep-alive',
+179 silly get     'cf-ray': '806b2a592fee59c5-MXP',
+179 silly get     'cf-cache-status': 'REVALIDATED',
+179 silly get     'cache-control': 'public, max-age=300',
+179 silly get     etag: '"ef9604414cafeecacfea0eb8a2235d7a"',
+179 silly get     'last-modified': 'Thu, 14 Sep 2023 14:06:43 GMT',
+179 silly get     vary: 'Accept-Encoding',
+179 silly get     server: 'cloudflare' } ]
+180 verbose etag https://registry.npmjs.org/@oven%2fbun-linux-aarch64 from cache
+181 verbose get saving @oven/bun-linux-aarch64 to /home/bardar/.npm/registry.npmjs.org/_40oven_252fbun-linux-aarch64/.cache.json
+182 silly cache afterAdd @oven/bun-linux-aarch64@1.0.1
+183 verbose afterAdd /home/bardar/.npm/@oven/bun-linux-aarch64/1.0.1/package/package.json not in flight; writing
+184 verbose afterAdd /home/bardar/.npm/@oven/bun-linux-aarch64/1.0.1/package/package.json written
+185 http 304 https://registry.npmjs.org/@oven%2fbun-darwin-x64
+186 silly get cb [ 304,
+186 silly get   { date: 'Thu, 14 Sep 2023 19:51:35 GMT',
+186 silly get     connection: 'keep-alive',
+186 silly get     'cf-ray': '806b2a591e9c5a2b-MXP',
+186 silly get     'cf-cache-status': 'REVALIDATED',
+186 silly get     'cache-control': 'public, max-age=300',
+186 silly get     etag: '"37024cfefc3c3237b1f728917ed48344"',
+186 silly get     'last-modified': 'Thu, 14 Sep 2023 14:06:14 GMT',
+186 silly get     vary: 'Accept-Encoding',
+186 silly get     server: 'cloudflare' } ]
+187 verbose etag https://registry.npmjs.org/@oven%2fbun-darwin-x64 from cache
+188 verbose get saving @oven/bun-darwin-x64 to /home/bardar/.npm/registry.npmjs.org/_40oven_252fbun-darwin-x64/.cache.json
+189 silly cache afterAdd @oven/bun-darwin-x64@1.0.1
+190 verbose afterAdd /home/bardar/.npm/@oven/bun-darwin-x64/1.0.1/package/package.json not in flight; writing
+191 verbose afterAdd /home/bardar/.npm/@oven/bun-darwin-x64/1.0.1/package/package.json written
+192 http 304 https://registry.npmjs.org/@oven%2fbun-darwin-x64-baseline
+193 silly get cb [ 304,
+193 silly get   { date: 'Thu, 14 Sep 2023 19:51:35 GMT',
+193 silly get     connection: 'keep-alive',
+193 silly get     'cf-ray': '806b2a592dbc5a01-MXP',
+193 silly get     'cf-cache-status': 'MISS',
+193 silly get     'cache-control': 'public, max-age=300',
+193 silly get     etag: '"bd9b4aca3ed6a59a8d8e2ee4ceab839a"',
+193 silly get     'last-modified': 'Thu, 14 Sep 2023 14:06:27 GMT',
+193 silly get     vary: 'Accept-Encoding',
+193 silly get     server: 'cloudflare' } ]
+194 verbose etag https://registry.npmjs.org/@oven%2fbun-darwin-x64-baseline from cache
+195 verbose get saving @oven/bun-darwin-x64-baseline to /home/bardar/.npm/registry.npmjs.org/_40oven_252fbun-darwin-x64-baseline/.cache.json
+196 silly cache afterAdd @oven/bun-darwin-x64-baseline@1.0.1
+197 verbose afterAdd /home/bardar/.npm/@oven/bun-darwin-x64-baseline/1.0.1/package/package.json not in flight; writing
+198 verbose afterAdd /home/bardar/.npm/@oven/bun-darwin-x64-baseline/1.0.1/package/package.json written
+199 http 304 https://registry.npmjs.org/@oven%2fbun-linux-x64-baseline
+200 silly get cb [ 304,
+200 silly get   { date: 'Thu, 14 Sep 2023 19:51:36 GMT',
+200 silly get     connection: 'keep-alive',
+200 silly get     'cf-ray': '806b2a5928f3374f-MXP',
+200 silly get     'cf-cache-status': 'REVALIDATED',
+200 silly get     'cache-control': 'public, max-age=300',
+200 silly get     etag: '"c8c845bf9163649b00ad89494e1c4a5e"',
+200 silly get     'last-modified': 'Thu, 14 Sep 2023 14:07:21 GMT',
+200 silly get     vary: 'Accept-Encoding',
+200 silly get     server: 'cloudflare' } ]
+201 verbose etag https://registry.npmjs.org/@oven%2fbun-linux-x64-baseline from cache
+202 verbose get saving @oven/bun-linux-x64-baseline to /home/bardar/.npm/registry.npmjs.org/_40oven_252fbun-linux-x64-baseline/.cache.json
+203 silly cache afterAdd @oven/bun-linux-x64-baseline@1.0.1
+204 verbose afterAdd /home/bardar/.npm/@oven/bun-linux-x64-baseline/1.0.1/package/package.json not in flight; writing
+205 verbose afterAdd /home/bardar/.npm/@oven/bun-linux-x64-baseline/1.0.1/package/package.json written
+206 http 304 https://registry.npmjs.org/@oven%2fbun-darwin-aarch64
+207 silly get cb [ 304,
+207 silly get   { date: 'Thu, 14 Sep 2023 19:51:36 GMT',
+207 silly get     connection: 'keep-alive',
+207 silly get     'cf-ray': '806b2a590ba6bb11-MXP',
+207 silly get     'cf-cache-status': 'MISS',
+207 silly get     'cache-control': 'public, max-age=300',
+207 silly get     etag: '"e6849d69cc643fb6bf7a0e659908a85f"',
+207 silly get     'last-modified': 'Thu, 14 Sep 2023 14:06:04 GMT',
+207 silly get     vary: 'Accept-Encoding',
+207 silly get     server: 'cloudflare' } ]
+208 verbose etag https://registry.npmjs.org/@oven%2fbun-darwin-aarch64 from cache
+209 verbose get saving @oven/bun-darwin-aarch64 to /home/bardar/.npm/registry.npmjs.org/_40oven_252fbun-darwin-aarch64/.cache.json
+210 silly cache afterAdd @oven/bun-darwin-aarch64@1.0.1
+211 verbose afterAdd /home/bardar/.npm/@oven/bun-darwin-aarch64/1.0.1/package/package.json not in flight; writing
+212 verbose afterAdd /home/bardar/.npm/@oven/bun-darwin-aarch64/1.0.1/package/package.json written
+213 silly install resolved [ { name: '@oven/bun-linux-x64',
+213 silly install resolved     version: '1.0.1',
+213 silly install resolved     description: 'This is the Linux x64 binary for Bun, a fast all-in-one JavaScript runtime.',
+213 silly install resolved     homepage: 'https://bun.sh',
+213 silly install resolved     bugs: { url: 'https://github.com/oven-sh/issues' },
+213 silly install resolved     license: 'MIT',
+213 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/oven-sh/bun.git' },
+213 silly install resolved     preferUnplugged: true,
+213 silly install resolved     os: [ 'linux' ],
+213 silly install resolved     cpu: [ 'x64' ],
+213 silly install resolved     gitHead: '4c113d1866ef6463a5972d90a2b6bddceb56ef73',
+213 silly install resolved     _id: '@oven/bun-linux-x64@1.0.1',
+213 silly install resolved     _nodeVersion: '18.17.1',
+213 silly install resolved     _npmVersion: '9.6.7',
+213 silly install resolved     dist:
+213 silly install resolved      { integrity: 'sha512-ZVg0wd8px/j0fB61xGDR9vqmpjlWKglbjM7YZbp/OwDXRrEzLwZ+COMzauVCWojRiyWx9VQja1cjpfWBlKfF2g==',
+213 silly install resolved        shasum: '3934da8418b6d5894d9744bb9e32dcd0d877c06e',
+213 silly install resolved        tarball: 'https://registry.npmjs.org/@oven/bun-linux-x64/-/bun-linux-x64-1.0.1.tgz',
+213 silly install resolved        fileCount: 3,
+213 silly install resolved        unpackedSize: 98548161,
+213 silly install resolved        signatures: [Object] },
+213 silly install resolved     _npmUser: { name: 'robobun', email: 'bot@oven.sh' },
+213 silly install resolved     directories: {},
+213 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+213 silly install resolved     _npmOperationalInternal:
+213 silly install resolved      { host: 's3://npm-registry-packages',
+213 silly install resolved        tmp: 'tmp/bun-linux-x64_1.0.1_1694533416897_0.8333544500945287' },
+213 silly install resolved     _hasShrinkwrap: false,
+213 silly install resolved     _shasum: '3934da8418b6d5894d9744bb9e32dcd0d877c06e',
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/@oven/bun-linux-x64/-/bun-linux-x64-1.0.1.tgz',
+213 silly install resolved     _from: '@oven/bun-linux-x64@1.0.1',
+213 silly install resolved     readme: 'ERROR: No README data found!' },
+213 silly install resolved   { name: '@oven/bun-linux-aarch64',
+213 silly install resolved     version: '1.0.1',
+213 silly install resolved     description: 'This is the Linux arm64 binary for Bun, a fast all-in-one JavaScript runtime.',
+213 silly install resolved     homepage: 'https://bun.sh',
+213 silly install resolved     bugs: { url: 'https://github.com/oven-sh/issues' },
+213 silly install resolved     license: 'MIT',
+213 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/oven-sh/bun.git' },
+213 silly install resolved     preferUnplugged: true,
+213 silly install resolved     os: [ 'linux' ],
+213 silly install resolved     cpu: [ 'arm64' ],
+213 silly install resolved     gitHead: '4c113d1866ef6463a5972d90a2b6bddceb56ef73',
+213 silly install resolved     _id: '@oven/bun-linux-aarch64@1.0.1',
+213 silly install resolved     _nodeVersion: '18.17.1',
+213 silly install resolved     _npmVersion: '9.6.7',
+213 silly install resolved     dist:
+213 silly install resolved      { integrity: 'sha512-XvjyARKiIWZ5RAHT3oZtjbZZGf/bJFCDAAJxM4mxMjZKqmulWb+erHyylcXDb0tmnJ2uGWDHio4lnN5PoDs7hg==',
+213 silly install resolved        shasum: '2814b30ae1eb698a650857417c6458c363262520',
+213 silly install resolved        tarball: 'https://registry.npmjs.org/@oven/bun-linux-aarch64/-/bun-linux-aarch64-1.0.1.tgz',
+213 silly install resolved        fileCount: 3,
+213 silly install resolved        unpackedSize: 87330459,
+213 silly install resolved        signatures: [Object] },
+213 silly install resolved     _npmUser: { name: 'robobun', email: 'bot@oven.sh' },
+213 silly install resolved     directories: {},
+213 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+213 silly install resolved     _npmOperationalInternal:
+213 silly install resolved      { host: 's3://npm-registry-packages',
+213 silly install resolved        tmp: 'tmp/bun-linux-aarch64_1.0.1_1694533397403_0.39808637691431326' },
+213 silly install resolved     _hasShrinkwrap: false,
+213 silly install resolved     _shasum: '2814b30ae1eb698a650857417c6458c363262520',
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/@oven/bun-linux-aarch64/-/bun-linux-aarch64-1.0.1.tgz',
+213 silly install resolved     _from: '@oven/bun-linux-aarch64@1.0.1',
+213 silly install resolved     readme: 'ERROR: No README data found!' },
+213 silly install resolved   { name: '@oven/bun-darwin-x64',
+213 silly install resolved     version: '1.0.1',
+213 silly install resolved     description: 'This is the macOS x64 binary for Bun, a fast all-in-one JavaScript runtime.',
+213 silly install resolved     homepage: 'https://bun.sh',
+213 silly install resolved     bugs: { url: 'https://github.com/oven-sh/issues' },
+213 silly install resolved     license: 'MIT',
+213 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/oven-sh/bun.git' },
+213 silly install resolved     preferUnplugged: true,
+213 silly install resolved     os: [ 'darwin' ],
+213 silly install resolved     cpu: [ 'x64' ],
+213 silly install resolved     gitHead: '4c113d1866ef6463a5972d90a2b6bddceb56ef73',
+213 silly install resolved     _id: '@oven/bun-darwin-x64@1.0.1',
+213 silly install resolved     _nodeVersion: '18.17.1',
+213 silly install resolved     _npmVersion: '9.6.7',
+213 silly install resolved     dist:
+213 silly install resolved      { integrity: 'sha512-hg638foFQdmo0+Jri6LAQhhpcbaE3Fb2youY1m/iFhVhH6Xuzt8izAgq30imT9qfd+FlcY8bRnjJN8uSGrvQrw==',
+213 silly install resolved        shasum: '4439cdd895dfcc997040b3849224aa19402e8a36',
+213 silly install resolved        tarball: 'https://registry.npmjs.org/@oven/bun-darwin-x64/-/bun-darwin-x64-1.0.1.tgz',
+213 silly install resolved        fileCount: 3,
+213 silly install resolved        unpackedSize: 55649155,
+213 silly install resolved        signatures: [Object] },
+213 silly install resolved     _npmUser: { name: 'robobun', email: 'bot@oven.sh' },
+213 silly install resolved     directories: {},
+213 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+213 silly install resolved     _npmOperationalInternal:
+213 silly install resolved      { host: 's3://npm-registry-packages',
+213 silly install resolved        tmp: 'tmp/bun-darwin-x64_1.0.1_1694533370270_0.4900628506219078' },
+213 silly install resolved     _hasShrinkwrap: false,
+213 silly install resolved     _shasum: '4439cdd895dfcc997040b3849224aa19402e8a36',
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/@oven/bun-darwin-x64/-/bun-darwin-x64-1.0.1.tgz',
+213 silly install resolved     _from: '@oven/bun-darwin-x64@1.0.1',
+213 silly install resolved     readme: 'ERROR: No README data found!' },
+213 silly install resolved   { name: '@oven/bun-darwin-x64-baseline',
+213 silly install resolved     version: '1.0.1',
+213 silly install resolved     description: 'This is the macOS x64 binary for Bun, a fast all-in-one JavaScript runtime.',
+213 silly install resolved     homepage: 'https://bun.sh',
+213 silly install resolved     bugs: { url: 'https://github.com/oven-sh/issues' },
+213 silly install resolved     license: 'MIT',
+213 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/oven-sh/bun.git' },
+213 silly install resolved     preferUnplugged: true,
+213 silly install resolved     os: [ 'darwin' ],
+213 silly install resolved     cpu: [ 'x64' ],
+213 silly install resolved     gitHead: '4c113d1866ef6463a5972d90a2b6bddceb56ef73',
+213 silly install resolved     _id: '@oven/bun-darwin-x64-baseline@1.0.1',
+213 silly install resolved     _nodeVersion: '18.17.1',
+213 silly install resolved     _npmVersion: '9.6.7',
+213 silly install resolved     dist:
+213 silly install resolved      { integrity: 'sha512-p28kziO67RMjhCiWbao9iCFUJaxmbhfPzy4nNEve7nGXJVB4wMq9Hr+DNp1VYbEyt1auXowF2+u4v3zDlM/ILw==',
+213 silly install resolved        shasum: 'ebc7b4e6c3dd3cb051bdd9d2b9d379cccf6a165e',
+213 silly install resolved        tarball: 'https://registry.npmjs.org/@oven/bun-darwin-x64-baseline/-/bun-darwin-x64-baseline-1.0.1.tgz',
+213 silly install resolved        fileCount: 3,
+213 silly install resolved        unpackedSize: 55227451,
+213 silly install resolved        signatures: [Object] },
+213 silly install resolved     _npmUser: { name: 'robobun', email: 'bot@oven.sh' },
+213 silly install resolved     directories: {},
+213 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+213 silly install resolved     _npmOperationalInternal:
+213 silly install resolved      { host: 's3://npm-registry-packages',
+213 silly install resolved        tmp: 'tmp/bun-darwin-x64-baseline_1.0.1_1694533381182_0.12077512185208672' },
+213 silly install resolved     _hasShrinkwrap: false,
+213 silly install resolved     _shasum: 'ebc7b4e6c3dd3cb051bdd9d2b9d379cccf6a165e',
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/@oven/bun-darwin-x64-baseline/-/bun-darwin-x64-baseline-1.0.1.tgz',
+213 silly install resolved     _from: '@oven/bun-darwin-x64-baseline@1.0.1',
+213 silly install resolved     readme: 'ERROR: No README data found!' },
+213 silly install resolved   { name: '@oven/bun-linux-x64-baseline',
+213 silly install resolved     version: '1.0.1',
+213 silly install resolved     description: 'This is the Linux x64 binary for Bun, a fast all-in-one JavaScript runtime.',
+213 silly install resolved     homepage: 'https://bun.sh',
+213 silly install resolved     bugs: { url: 'https://github.com/oven-sh/issues' },
+213 silly install resolved     license: 'MIT',
+213 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/oven-sh/bun.git' },
+213 silly install resolved     preferUnplugged: true,
+213 silly install resolved     os: [ 'linux' ],
+213 silly install resolved     cpu: [ 'x64' ],
+213 silly install resolved     gitHead: '4c113d1866ef6463a5972d90a2b6bddceb56ef73',
+213 silly install resolved     _id: '@oven/bun-linux-x64-baseline@1.0.1',
+213 silly install resolved     _nodeVersion: '18.17.1',
+213 silly install resolved     _npmVersion: '9.6.7',
+213 silly install resolved     dist:
+213 silly install resolved      { integrity: 'sha512-mwzDqoZnqwJXNsTN4q9FHnaPaTwFwRSCvxzkn8PqV2mKkOF4H+KUR/VZuZ18lYlixD7hCj1plbpx/B59pp293g==',
+213 silly install resolved        shasum: '9803e65b84b380beb3c7c11c7e96fa95d0b11c6d',
+213 silly install resolved        tarball: 'https://registry.npmjs.org/@oven/bun-linux-x64-baseline/-/bun-linux-x64-baseline-1.0.1.tgz',
+213 silly install resolved        fileCount: 3,
+213 silly install resolved        unpackedSize: 98078873,
+213 silly install resolved        signatures: [Object] },
+213 silly install resolved     _npmUser: { name: 'robobun', email: 'bot@oven.sh' },
+213 silly install resolved     directories: {},
+213 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+213 silly install resolved     _npmOperationalInternal:
+213 silly install resolved      { host: 's3://npm-registry-packages',
+213 silly install resolved        tmp: 'tmp/bun-linux-x64-baseline_1.0.1_1694533436916_0.4983238593865671' },
+213 silly install resolved     _hasShrinkwrap: false,
+213 silly install resolved     _shasum: '9803e65b84b380beb3c7c11c7e96fa95d0b11c6d',
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/@oven/bun-linux-x64-baseline/-/bun-linux-x64-baseline-1.0.1.tgz',
+213 silly install resolved     _from: '@oven/bun-linux-x64-baseline@1.0.1',
+213 silly install resolved     readme: 'ERROR: No README data found!' },
+213 silly install resolved   { name: '@oven/bun-darwin-aarch64',
+213 silly install resolved     version: '1.0.1',
+213 silly install resolved     description: 'This is the macOS arm64 binary for Bun, a fast all-in-one JavaScript runtime.',
+213 silly install resolved     homepage: 'https://bun.sh',
+213 silly install resolved     bugs: { url: 'https://github.com/oven-sh/issues' },
+213 silly install resolved     license: 'MIT',
+213 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/oven-sh/bun.git' },
+213 silly install resolved     preferUnplugged: true,
+213 silly install resolved     os: [ 'darwin' ],
+213 silly install resolved     cpu: [ 'arm64' ],
+213 silly install resolved     gitHead: '4c113d1866ef6463a5972d90a2b6bddceb56ef73',
+213 silly install resolved     _id: '@oven/bun-darwin-aarch64@1.0.1',
+213 silly install resolved     _nodeVersion: '18.17.1',
+213 silly install resolved     _npmVersion: '9.6.7',
+213 silly install resolved     dist:
+213 silly install resolved      { integrity: 'sha512-73YfDA7+ZRQc/U3d0bjeJVsvSg4UVOhOadlRsZtRN8OYew1fshx91DZnfNBGjLMQP0hG8bk5PxGWbKmqp7MsJg==',
+213 silly install resolved        shasum: 'd3196677371bdfbe7117debb05342a82d58e538e',
+213 silly install resolved        tarball: 'https://registry.npmjs.org/@oven/bun-darwin-aarch64/-/bun-darwin-aarch64-1.0.1.tgz',
+213 silly install resolved        fileCount: 3,
+213 silly install resolved        unpackedSize: 50547389,
+213 silly install resolved        signatures: [Object] },
+213 silly install resolved     _npmUser: { name: 'robobun', email: 'bot@oven.sh' },
+213 silly install resolved     directories: {},
+213 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+213 silly install resolved     _npmOperationalInternal:
+213 silly install resolved      { host: 's3://npm-registry-packages',
+213 silly install resolved        tmp: 'tmp/bun-darwin-aarch64_1.0.1_1694533359441_0.04489464861534476' },
+213 silly install resolved     _hasShrinkwrap: false,
+213 silly install resolved     _shasum: 'd3196677371bdfbe7117debb05342a82d58e538e',
+213 silly install resolved     _resolved: 'https://registry.npmjs.org/@oven/bun-darwin-aarch64/-/bun-darwin-aarch64-1.0.1.tgz',
+213 silly install resolved     _from: '@oven/bun-darwin-aarch64@1.0.1',
+213 silly install resolved     readme: 'ERROR: No README data found!' } ]
+214 info install @oven/bun-linux-x64@1.0.1 into /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+215 info install @oven/bun-linux-aarch64@1.0.1 into /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+216 info install @oven/bun-darwin-x64@1.0.1 into /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+217 info install @oven/bun-darwin-x64-baseline@1.0.1 into /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+218 info install @oven/bun-linux-x64-baseline@1.0.1 into /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+219 info install @oven/bun-darwin-aarch64@1.0.1 into /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+220 info installOne @oven/bun-linux-x64@1.0.1
+221 verbose installOne of @oven/bun-linux-x64 to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun not in flight; installing
+222 info installOne @oven/bun-linux-aarch64@1.0.1
+223 verbose installOne of @oven/bun-linux-aarch64 to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun not in flight; installing
+224 info installOne @oven/bun-darwin-x64@1.0.1
+225 verbose installOne of @oven/bun-darwin-x64 to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun not in flight; installing
+226 info installOne @oven/bun-darwin-x64-baseline@1.0.1
+227 verbose installOne of @oven/bun-darwin-x64-baseline to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun not in flight; installing
+228 info installOne @oven/bun-linux-x64-baseline@1.0.1
+229 verbose installOne of @oven/bun-linux-x64-baseline to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun not in flight; installing
+230 info installOne @oven/bun-darwin-aarch64@1.0.1
+231 verbose installOne of @oven/bun-darwin-aarch64 to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun not in flight; installing
+232 verbose lock using /home/bardar/.npm/_locks/oven-bun-linux-aarch64-80f6465b632e34c8.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-aarch64
+233 verbose lock using /home/bardar/.npm/_locks/oven-bun-darwin-x64-d091ea81944193dd.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-darwin-x64
+234 verbose lock using /home/bardar/.npm/_locks/oven-bun-linux-x64-b904ac07b25295c6.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+235 verbose lock using /home/bardar/.npm/_locks/oven-bun-darwin-x64-base-2417eacf5e6a63d9.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-darwin-x64-baseline
+236 verbose lock using /home/bardar/.npm/_locks/oven-bun-linux-x64-basel-5175651c1b012a8b.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+237 verbose unlock done using /home/bardar/.npm/_locks/oven-bun-linux-aarch64-80f6465b632e34c8.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-aarch64
+238 warn optional dep failed, continuing @oven/bun-linux-aarch64@1.0.1
+239 verbose optional dep failed, continuing [ '@oven/bun-linux-aarch64@1.0.1',
+239 verbose optional dep failed, continuing   { [Error: Unsupported]
+239 verbose optional dep failed, continuing     code: 'EBADPLATFORM',
+239 verbose optional dep failed, continuing     os: [ 'linux' ],
+239 verbose optional dep failed, continuing     cpu: [ 'arm64' ],
+239 verbose optional dep failed, continuing     pkgid: '@oven/bun-linux-aarch64@1.0.1' } ]
+240 verbose unlock done using /home/bardar/.npm/_locks/oven-bun-darwin-x64-d091ea81944193dd.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-darwin-x64
+241 warn optional dep failed, continuing @oven/bun-darwin-x64@1.0.1
+242 verbose optional dep failed, continuing [ '@oven/bun-darwin-x64@1.0.1',
+242 verbose optional dep failed, continuing   { [Error: Unsupported]
+242 verbose optional dep failed, continuing     code: 'EBADPLATFORM',
+242 verbose optional dep failed, continuing     os: [ 'darwin' ],
+242 verbose optional dep failed, continuing     cpu: [ 'x64' ],
+242 verbose optional dep failed, continuing     pkgid: '@oven/bun-darwin-x64@1.0.1' } ]
+243 silly install write writing @oven/bun-linux-x64 1.0.1 to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+244 verbose unlock done using /home/bardar/.npm/_locks/oven-bun-darwin-x64-base-2417eacf5e6a63d9.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-darwin-x64-baseline
+245 warn optional dep failed, continuing @oven/bun-darwin-x64-baseline@1.0.1
+246 verbose optional dep failed, continuing [ '@oven/bun-darwin-x64-baseline@1.0.1',
+246 verbose optional dep failed, continuing   { [Error: Unsupported]
+246 verbose optional dep failed, continuing     code: 'EBADPLATFORM',
+246 verbose optional dep failed, continuing     os: [ 'darwin' ],
+246 verbose optional dep failed, continuing     cpu: [ 'x64' ],
+246 verbose optional dep failed, continuing     pkgid: '@oven/bun-darwin-x64-baseline@1.0.1' } ]
+247 verbose lock using /home/bardar/.npm/_locks/oven-bun-darwin-aarch64-72fa77e6d9bb64cc.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-darwin-aarch64
+248 silly install write writing @oven/bun-linux-x64-baseline 1.0.1 to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+249 verbose unlock done using /home/bardar/.npm/_locks/oven-bun-darwin-aarch64-72fa77e6d9bb64cc.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-darwin-aarch64
+250 warn optional dep failed, continuing @oven/bun-darwin-aarch64@1.0.1
+251 verbose optional dep failed, continuing [ '@oven/bun-darwin-aarch64@1.0.1',
+251 verbose optional dep failed, continuing   { [Error: Unsupported]
+251 verbose optional dep failed, continuing     code: 'EBADPLATFORM',
+251 verbose optional dep failed, continuing     os: [ 'darwin' ],
+251 verbose optional dep failed, continuing     cpu: [ 'arm64' ],
+251 verbose optional dep failed, continuing     pkgid: '@oven/bun-darwin-aarch64@1.0.1' } ]
+252 verbose unbuild lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+253 verbose unbuild lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+254 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64 is being purged from base /home/bardar/.nvm/versions/io.js/v1.8.4
+255 verbose gentlyRm don't care about contents; nuking /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+256 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline is being purged from base /home/bardar/.nvm/versions/io.js/v1.8.4
+257 verbose gentlyRm don't care about contents; nuking /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+258 verbose tar unpack /home/bardar/.npm/@oven/bun-linux-x64/1.0.1/package.tgz
+259 verbose tar unpacking to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+260 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64 is being purged
+261 verbose gentlyRm don't care about contents; nuking /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+262 verbose tar unpack /home/bardar/.npm/@oven/bun-linux-x64-baseline/1.0.1/package.tgz
+263 verbose tar unpacking to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+264 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline is being purged
+265 verbose gentlyRm don't care about contents; nuking /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+266 silly gunzTarPerm modes [ '755', '644' ]
+267 silly gunzTarPerm modes [ '755', '644' ]
+268 silly gunzTarPerm extractEntry bin/bun
+269 silly gunzTarPerm extractEntry bin/bun
+270 silly gunzTarPerm extractEntry package.json
+271 silly gunzTarPerm extractEntry README.md
+272 silly gunzTarPerm extractEntry package.json
+273 silly gunzTarPerm extractEntry README.md
+274 verbose write writing to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline/package.json
+275 info preinstall @oven/bun-linux-x64-baseline@1.0.1
+276 verbose readDependencies loading dependencies from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline/package.json
+277 verbose readDependencies loading dependencies from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline/package.json
+278 silly install resolved []
+279 verbose about to build /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+280 info build /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+281 info linkStuff @oven/bun-linux-x64-baseline@1.0.1
+282 silly linkStuff @oven/bun-linux-x64-baseline@1.0.1 has /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules as its parent node_modules
+283 silly linkStuff @oven/bun-linux-x64-baseline@1.0.1 is part of a global install
+284 silly linkStuff @oven/bun-linux-x64-baseline@1.0.1 is installed into a global node_modules
+285 verbose linkBins @oven/bun-linux-x64-baseline@1.0.1
+286 verbose linkMans @oven/bun-linux-x64-baseline@1.0.1
+287 verbose rebuildBundles @oven/bun-linux-x64-baseline@1.0.1
+288 info install @oven/bun-linux-x64-baseline@1.0.1
+289 info postinstall @oven/bun-linux-x64-baseline@1.0.1
+290 verbose unlock done using /home/bardar/.npm/_locks/oven-bun-linux-x64-basel-5175651c1b012a8b.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64-baseline
+291 verbose write writing to /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64/package.json
+292 info preinstall @oven/bun-linux-x64@1.0.1
+293 verbose readDependencies loading dependencies from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64/package.json
+294 verbose readDependencies loading dependencies from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64/package.json
+295 silly install resolved []
+296 verbose about to build /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+297 info build /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+298 info linkStuff @oven/bun-linux-x64@1.0.1
+299 silly linkStuff @oven/bun-linux-x64@1.0.1 has /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules as its parent node_modules
+300 silly linkStuff @oven/bun-linux-x64@1.0.1 is part of a global install
+301 silly linkStuff @oven/bun-linux-x64@1.0.1 is installed into a global node_modules
+302 verbose linkBins @oven/bun-linux-x64@1.0.1
+303 verbose linkMans @oven/bun-linux-x64@1.0.1
+304 verbose rebuildBundles @oven/bun-linux-x64@1.0.1
+305 info install @oven/bun-linux-x64@1.0.1
+306 info postinstall @oven/bun-linux-x64@1.0.1
+307 verbose unlock done using /home/bardar/.npm/_locks/oven-bun-linux-x64-b904ac07b25295c6.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun/node_modules/@oven/bun-linux-x64
+308 verbose about to build /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+309 info build /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+310 info linkStuff bun@1.0.1
+311 silly linkStuff bun@1.0.1 has /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules as its parent node_modules
+312 silly linkStuff bun@1.0.1 is part of a global install
+313 silly linkStuff bun@1.0.1 is installed into a global node_modules
+314 silly linkStuff bun@1.0.1 is installed into the top-level global node_modules
+315 verbose linkBins bun@1.0.1
+316 verbose link bins [ { bun: 'bin/bun', bunx: 'bin/bun' },
+316 verbose link bins   '/home/bardar/.nvm/versions/io.js/v1.8.4/bin',
+316 verbose link bins   true ]
+317 verbose linkMans bun@1.0.1
+318 verbose rebuildBundles bun@1.0.1
+319 verbose rebuildBundles [ '@oven' ]
+320 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bun is being gently removed
+321 silly gentlyRm verifying /home/bardar/.nvm/versions/io.js/v1.8.4 is an npm working directory
+322 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bunx is being gently removed
+323 silly gentlyRm verifying /home/bardar/.nvm/versions/io.js/v1.8.4 is an npm working directory
+324 silly gentlyRm containing path /home/bardar/.nvm/versions/io.js/v1.8.4 is under npm's control, in /home/bardar/.nvm/versions/io.js/v1.8.4
+325 silly gentlyRm deletion target /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bun is under /home/bardar/.nvm/versions/io.js/v1.8.4
+326 verbose gentlyRm vacuuming from /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bun up to /home/bardar/.nvm/versions/io.js/v1.8.4
+327 silly gentlyRm containing path /home/bardar/.nvm/versions/io.js/v1.8.4 is under npm's control, in /home/bardar/.nvm/versions/io.js/v1.8.4
+328 silly gentlyRm deletion target /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bunx is under /home/bardar/.nvm/versions/io.js/v1.8.4
+329 verbose gentlyRm vacuuming from /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bunx up to /home/bardar/.nvm/versions/io.js/v1.8.4
+330 info install bun@1.0.1
+331 info postinstall bun@1.0.1
+332 verbose unsafe-perm in lifecycle true
+333 info bun@1.0.1 Failed to exec postinstall script
+334 verbose unlock done using /home/bardar/.npm/_locks/bun-fb4d4e96582762f7.lock for /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+335 verbose stack Error: bun@1.0.1 postinstall: `node install.js`
+335 verbose stack Exit status 1
+335 verbose stack     at EventEmitter.<anonymous> (/home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/npm/lib/utils/lifecycle.js:213:16)
+335 verbose stack     at emitTwo (events.js:87:13)
+335 verbose stack     at EventEmitter.emit (events.js:169:7)
+335 verbose stack     at ChildProcess.<anonymous> (/home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/npm/lib/utils/spawn.js:24:14)
+335 verbose stack     at emitTwo (events.js:87:13)
+335 verbose stack     at ChildProcess.emit (events.js:169:7)
+335 verbose stack     at maybeClose (child_process.js:953:16)
+335 verbose stack     at Process.ChildProcess._handle.onexit (child_process.js:1020:5)
+336 verbose pkgid bun@1.0.1
+337 verbose cwd /mnt/c/Users/Matteo/Desktop/Programs/bun
+338 error Linux 5.10.102.1-microsoft-standard-WSL2
+339 error argv "/home/bardar/.nvm/versions/io.js/v1.8.4/bin/iojs" "/home/bardar/.nvm/versions/io.js/v1.8.4/bin/npm" "install" "-g" "bun"
+340 error node v1.8.4
+341 error npm  v2.9.0
+342 error code ELIFECYCLE
+343 error bun@1.0.1 postinstall: `node install.js`
+343 error Exit status 1
+344 error Failed at the bun@1.0.1 postinstall script 'node install.js'.
+344 error This is most likely a problem with the bun package,
+344 error not with npm itself.
+344 error Tell the author that this fails on your system:
+344 error     node install.js
+344 error You can get their info via:
+344 error     npm owner ls bun
+344 error There is likely additional logging output above.
+345 verbose exit [ 1, true ]
+346 verbose unbuild lib/node_modules/bun
+347 info preuninstall bun@1.0.1
+348 info uninstall bun@1.0.1
+349 verbose unbuild rmStuff bun@1.0.1 from /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules
+350 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bun is being gently removed
+351 silly gentlyRm verifying /home/bardar/.nvm/versions/io.js/v1.8.4 is an npm working directory
+352 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bunx is being gently removed
+353 silly gentlyRm verifying /home/bardar/.nvm/versions/io.js/v1.8.4 is an npm working directory
+354 silly gentlyRm containing path /home/bardar/.nvm/versions/io.js/v1.8.4 is under npm's control, in /home/bardar/.nvm/versions/io.js/v1.8.4
+355 silly gentlyRm deletion target /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bun is under /home/bardar/.nvm/versions/io.js/v1.8.4
+356 verbose gentlyRm vacuuming from /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bun up to /home/bardar/.nvm/versions/io.js/v1.8.4
+357 silly gentlyRm containing path /home/bardar/.nvm/versions/io.js/v1.8.4 is under npm's control, in /home/bardar/.nvm/versions/io.js/v1.8.4
+358 silly gentlyRm deletion target /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bunx is under /home/bardar/.nvm/versions/io.js/v1.8.4
+359 verbose gentlyRm vacuuming from /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bunx up to /home/bardar/.nvm/versions/io.js/v1.8.4
+360 silly vacuum-fs removing /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bun
+361 silly vacuum-fs removing /home/bardar/.nvm/versions/io.js/v1.8.4/bin/bunx
+362 silly vacuum-fs quitting because other entries in /home/bardar/.nvm/versions/io.js/v1.8.4/bin
+363 silly vacuum-fs quitting because other entries in /home/bardar/.nvm/versions/io.js/v1.8.4/bin
+364 info postuninstall bun@1.0.1
+365 silly gentlyRm /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun is being purged from base /home/bardar/.nvm/versions/io.js/v1.8.4
+366 verbose gentlyRm don't care about contents; nuking /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+367 silly vacuum-fs purging /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules/bun
+368 silly vacuum-fs quitting because other entries in /home/bardar/.nvm/versions/io.js/v1.8.4/lib/node_modules
